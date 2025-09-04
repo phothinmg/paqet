@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"outDir": "dist",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"noImplicitAny": true,
+		"strict": true,
+		"allowJs": true,
+		"resolveJsonModule": true
+	},
+	"include": ["src/**/*"]
+}

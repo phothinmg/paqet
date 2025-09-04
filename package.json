@@ -1,0 +1,30 @@
+{
+	"name": "paqet",
+	"version": "0.0.1",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"lint": "biome check src --write",
+		"format": "biome format --write"
+	},
+	"keywords": [],
+	"author": "Pho Thin Mg <phothinmg@disroot.org>",
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"@biomejs/biome": "^2.2.2",
+		"@types/node": "^24.3.0",
+		"typescript": "^5.9.2"
+	},
+	"dependencies": {
+		"@lwe8/tcolor": "^1.0.3",
+		"dependensia": "^0.0.3",
+		"risolt": "^0.0.3"
+	},
+	"files": [
+		"index.js",
+		"LICENSE",
+		"readme.md",
+		"package.json"
+	]
+}
