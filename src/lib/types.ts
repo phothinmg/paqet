@@ -13,3 +13,10 @@ export type NamesSets = NamesSet[];
 export type DuplicatesNameMap = Map<string, Set<{ file: string }>>;
 
 export type BundleHandler = ({ file, content }: DepsFile) => DepsFile;
+
+export interface NamesMap {
+	base: string;
+	file: string;
+	short: string;
+	oldName: string;
+}
